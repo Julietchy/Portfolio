@@ -1,0 +1,15 @@
+/* font-family Castoro*/
+@font-face{
+    font-family: Castoro;
+    src: url(../portfolio/fonts/Castoro/Castoro-Italic.ttf);
+}
+
+@font-face{
+    font-family: Nunito;
+    src: url(../portfolio/fonts/Nunito/Nunito-Black.ttf);
+}
+
+@font-face{
+    font-family: Titillium;
+    src: url(../portfolio/fonts/Titillium_Web/OFL.txt);
+}

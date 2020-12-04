@@ -1,0 +1,164 @@
+
+
+@import url("./fonts.css");
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+  --Castoro: 'Castoro', cursive;
+  --Nunito: 'Nunito', cursive;
+  --Titillium: 'Titillium', cursive;
+}
+
+/*.navbar{
+    background-color: 	#202020;
+    height: 70px;
+}
+
+.navbar p{
+    padding: 20px;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #bf4040;
+  }
+  
+  li {
+    float: right;
+    
+  }
+  
+  li a {
+    font-family: Georgia;
+    font-size: 17px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    
+}
+  
+  li a:hover {
+    background-color: black;
+  }
+*/
+ul li a{
+  font-size: 20px;
+  color: white;
+  float: right;
+  height: 70px;
+}
+
+span{
+    font-size: 100px;
+    position: relative;
+}
+
+.new{
+    font-family: Georgia;
+    display: block;
+    text-align: center;
+    font-family: var(--Titillium);
+    background-color: #282828;
+    height: 400px;
+   
+}
+h1{
+    color: white;
+    padding: 100px;
+    font-size: 50px;
+}
+.fill{
+    background-color: #6570d2;
+    height: 1050px;
+}
+.fill p{
+    padding-top: 70px;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+div.gallery {
+    margin: 15px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 400px;
+    height: 400px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 400px;
+    height: 300px;
+  }
+  
+  div.desc {
+    margin-top: 0;
+    padding: 30px;
+    text-align: center;
+    background-color:#282828;
+  }
+
+  .row{
+    padding: 25px;
+  }
+  .row{
+    text-align: center;
+    color: white;
+    font-family: var(--Titillium);
+  }
+  .footer{
+    background-color: #282828;
+    height: 400px;
+    font-size: 40px;
+    font-family: var(--Titillium);
+    color: white;
+    text-align: center;
+  }
+
+  .cofee{
+    font-family: var(--Castoro);
+    font-size: 20px;
+  }
+  .line{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: darkred;
+    height: 5px;
+    
+  }
+
+  
+  .icons{
+    font-family: var(--Titillium);
+    font-size: 20px;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+   
+  }
+  
+  .lined{
+    
+    font-size: 20px;
+  }
